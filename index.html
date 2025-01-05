@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian School Muscat - ISM</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script async src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.156.1/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.156.1/examples/jsm/"
+        }
+      }
+    </script>
+</head>
+<body>
+    <div id="canvas-container"></div>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>ISM</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Indian School Muscat</h1>
+                <p>Nurturing Excellence, Building Character</p>
+                <a href="#about" class="cta-button">Learn More</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About ISM</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Indian School Muscat, established in 1975, has been a beacon of educational excellence in the Sultanate of Oman for 50 glorious years. As one of the premier educational institutions, we have shaped generations of learners into global citizens.</p>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>50</h3>
+                        <p>Years of Excellence</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>9000+</h3>
+                        <p>Students</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>500+</h3>
+                        <p>Faculty Members</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="academics" class="academics">
+            <h2>Academics</h2>
+            <div class="academic-programs">
+                <div class="program">
+                    <i class="fas fa-school"></i>
+                    <h3>Primary Section</h3>
+                    <p>Grades 1-5</p>
+                </div>
+                <div class="program">
+                    <i class="fas fa-book-reader"></i>
+                    <h3>Middle Section</h3>
+                    <p>Grades 6-8</p>
+                </div>
+                <div class="program">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Secondary Section</h3>
+                    <p>Grades 9-12</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="facilities" class="facilities">
+            <h2>Our Facilities</h2>
+            <div class="facility-grid">
+                <div class="facility">
+                    <i class="fas fa-flask"></i>
+                    <h3>Science Labs</h3>
+                </div>
+                <div class="facility">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Computer Labs</h3>
+                </div>
+                <div class="facility">
+                    <i class="fas fa-book"></i>
+                    <h3>Library</h3>
+                </div>
+                <div class="facility">
+                    <i class="fas fa-futbol"></i>
+                    <h3>Sports Complex</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>CBD Area, Way No. 3017, Darsait, Muscat, Sultanate of Oman</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+968 XXXX XXXX</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@indianschoolmuscat.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Indian School Muscat. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
